@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe - 2x2 Grid</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="first">
+        <marquee>
+            <h1>Noughts and Crosses</h1>
+        </marquee>
+        <div class="container1">
+            <div class="board1-container">
+                <h1>2x2 Grid</h1>
+                <div id="board1" class="board1">
+                    <!-- The game board will be generated here -->
+                </div>
+                <div id="message1" class="message1"></div>
+                <button id="restartBtn" class="restart-btn">Restart Game</button>
+            </div>
+            <div class="turn-container1">
+                <h1>Turn For</h1>
+                <div class="turn-box">X</div>
+                <div class="turn-box">O</div>
+            </div>
+        </div>
+
+
+    </div>
+      <!-- Audio elements for sound effects -->
+      <audio id="moveSound" src="files/music.mp3"></audio>
+      <audio id="gameOverSound" src="files/gameover.mp3"></audio>
+  
+    <script src="js/game_script.js"></script>
+</body>
+
+</html>
